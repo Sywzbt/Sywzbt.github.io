@@ -1,0 +1,226 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*以上為css reset*/
+.wrap{
+    width: 800px;
+    margin: auto;
+}
+
+.title{
+    width: 800px;
+    background-image: linear-gradient(to right, white, white, #9ACCCD);
+    font-size: 40px;
+}
+
+.nav-bar, .img, .profile, .blank{
+    float: left;
+}
+
+.nav-bar{
+    width: 90px;
+    height: 700px;
+    background-color: #9ACCCD;
+}
+
+.t-nav-bar{
+    width: 100%;
+}
+
+.button{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    background-image: linear-gradient(to bottom, rgba(158, 149, 149, 0.479), white, rgba(158, 149, 149, 0.479));
+}
+
+.button:hover{
+    background-color: rgb(130, 236, 23);
+}
+
+.subtitle{
+    height: 50px;
+    width: 710px;
+}
+
+.subtitle p{
+    padding-top: 20px;
+    padding-left: 100px;
+    color: rgba(123, 138, 138, 0.685);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.subtitle2{
+    height: 50px;
+    width: 500px;
+    margin-left: 200px;
+    border: 1px dotted;
+}
+
+.subtitle2 p{
+    padding-top: 17px;
+    padding-left: 30px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+tr{
+    height: 30px;
+}
+
+.blank{
+    width: 20px;
+    height: 790px;
+    margin-top: 20px;
+}
+
+.t-profile{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.t-proflie-td{
+    border: 1px solid;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.interest{
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 500px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.interest p{
+    font-size: 20px;
+}
+
+.t-history{
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 400px;
+}
+
+.t-history td{
+    border: 1px solid;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.qa{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.qa p{
+    font-size: large;
+}
+
+.info{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.footer-index{
+    width: 800px;
+    height: 40px;
+    margin-top: 350px;
+    background-color: #9ACCCD;
+}
+
+.footer-interest{
+    width: 800px;
+    height: 40px;
+    margin-top: 370px;
+    background-color: #9ACCCD;
+}
+
+.footer-history{
+    width: 800px;
+    height: 40px;
+    margin-top: 350px;
+    background-color: #9ACCCD;
+}
+
+.footer-qa{
+    width: 800px;
+    height: 40px;
+    margin-top: 290px;
+    background-color: #9ACCCD;
+}
+
+.footer-info{
+    width: 800px;
+    height: 40px;
+    margin-top: 515px;
+    background-color: #9ACCCD;
+}
+
+.info a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.neta{
+    font-size: 50px;
+    color: red;
+}
+
+.hashtag{
+    font-size: 25px;
+    text-decoration: none;
+}
